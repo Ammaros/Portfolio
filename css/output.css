@@ -1,0 +1,176 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #28262C;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #28262C;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1vh 1.5vw;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+}
+
+.btn-primary:hover {
+  background-color: #1A191D;
+  box-shadow: 0px 4px 16px rgba(40, 38, 44, 0.15);
+}
+
+.btn-secondary {
+  color: #28262C;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: none none #28262C;
+  text-decoration: none;
+  padding: 0.5vh 0;
+  transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+}
+
+.btn-secondary:hover {
+  color: #708090;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.huge {
+  font-size: 3vw;
+}
+
+.semihuge {
+  font-size: 2.25vw;
+}
+
+.big {
+  font-size: 1.5vw;
+}
+
+.medium {
+  font-size: 1.25vw;
+}
+
+.big-text {
+  font-size: 1.5vw;
+}
+
+#line {
+  margin: 6vh 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#intro-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 20vw;
+}
+
+.projects-container {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 0 auto;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin: 6vh 20vw;
+}
+
+.text-container {
+  max-width: 50%;
+}
+
+.project-view-container {
+  margin-top: 4vh;
+}
+
+.project-image {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 476px) {
+  .hide {
+    display: none;
+  }
+
+  .huge {
+    font-size: 1.6875rem;
+  }
+
+  .semihuge {
+    font-size: 1.4rem;
+  }
+
+  .big {
+    font-size: 1.2rem;
+  }
+
+  .medium {
+    font-size: 1.1rem;
+  }
+
+  .big-text {
+    font-size: 1rem;
+  }
+
+  #line {
+    margin: 4vh 0;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding: 0 4vw;
+  }
+
+  #intro-container {
+    margin: 2vh 4vw;
+  }
+
+  .project {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1vw;
+  }
+
+  .text-container {
+    max-width: 100%;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-image {
+    max-width: none;
+    height: auto;
+    width: 90vw;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
