@@ -38,8 +38,8 @@
 }
 
 .ozpoz-img:hover {
-  color: #be0000;
-  border-color: none none #be0000;
+  color: #bb0000;
+  border-color: none none #bb0000;
 }
 
 .savvy-img {
@@ -97,10 +97,6 @@ nav {
   width: 60%;
 }
 
-.project-alt {
-  display: none;
-}
-
 .projects-container {
   width: 100%;
   display: flex;
@@ -111,6 +107,7 @@ nav {
 .project {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   width: 60%;
   margin: 2vh 0;
 }
@@ -218,7 +215,10 @@ nav {
   }
 
   .project {
-    display: none;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 4vh 0;
   }
 
   .projects-container {
@@ -226,20 +226,12 @@ nav {
     width: auto;
   }
 
-  .project-alt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 4vh 0;
-  }
-
-  .text-container-alt {
+  .text-container {
     max-width: 100%;
     text-align: center;
   }
 
-  .project-image-alt {
+  .project-image {
     max-width: none;
     height: auto;
     width: 85vw;
