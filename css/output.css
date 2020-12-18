@@ -1,11 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
-  color: #28262C;
+  color: #3c3b42;
 }
 
 .btn-primary {
   color: #FFFFFF;
-  background-color: #28262C;
+  background-color: #3c3b42;
   text-decoration: none;
   border-radius: 6px;
   padding: 1vh 1.5vw;
@@ -13,15 +13,15 @@
 }
 
 .btn-primary:hover {
-  background-color: #1A191D;
+  background-color: #080808;
   box-shadow: 0px 4px 16px rgba(40, 38, 44, 0.15);
 }
 
 .btn-secondary {
-  color: #28262C;
+  color: #3c3b42;
   border-style: none none solid;
   border-width: 1.5px;
-  border-color: none none #28262C;
+  border-color: none none #3c3b42;
   text-decoration: none;
   padding: 0.5vh 0;
   font-weight: 600;
@@ -29,7 +29,27 @@
 }
 
 .btn-secondary:hover {
-  color: #708090;
+  color: #080808;
+}
+
+.ozpoz-img {
+  color: #de0000;
+  border-color: none none #de0000;
+}
+
+.ozpoz-img:hover {
+  color: #be0000;
+  border-color: none none #be0000;
+}
+
+.savvy-img {
+  color: #9335c4;
+  border-color: none none #9335c4;
+}
+
+.savvy-img:hover {
+  color: #73299b;
+  border-color: none none #73299b;
 }
 
 .bold {
@@ -67,7 +87,7 @@ nav {
 }
 
 #intro-container {
-  width: 99vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -82,7 +102,7 @@ nav {
 }
 
 .projects-container {
-  width: 99vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -111,7 +131,7 @@ nav {
 }
 
 .outro-container {
-  width: 99vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
