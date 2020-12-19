@@ -1,6 +1,25 @@
 * {
   font-family: "Poppins", sans-serif;
   color: #3c3b42;
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+#cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.cursor-hover {
+  width: 30px !important;
+  height: 30px !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 .btn-primary {
@@ -84,6 +103,12 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.name {
+  border-style: none none solid;
+  border-width: 2px;
+  border-color: none none #3c3b42;
 }
 
 #intro-container {
@@ -172,6 +197,18 @@ nav {
   }
 }
 @media screen and (max-width: 476px) {
+  * {
+    cursor: pointer;
+  }
+
+  #cursor {
+    display: none !important;
+  }
+
+  .cursor-hover {
+    display: none !important;
+  }
+
   .hide {
     display: none;
   }

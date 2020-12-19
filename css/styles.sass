@@ -7,6 +7,23 @@ $hover: #080808
 *
     font-family: 'Poppins', sans-serif
     color: $primary-color
+    scroll-behavior: smooth
+    cursor: none
+
+#cursor
+    position: absolute
+    width: 20px
+    height: 20px
+    background-color: rgba(0, 0, 0, 0.3)
+    box-sizing: border-box
+    transform: translate(-50%, -50%)
+    border-radius: 50%
+    pointer-events: none
+
+.cursor-hover
+    width: 30px !important
+    height: 30px !important
+    background-color: rgba(256, 256, 256, 0.3) !important
 
 .btn-primary
     color: $white
@@ -76,6 +93,14 @@ nav
     display: flex
     justify-content: space-around
     align-items: center
+    // position: sticky
+    // top: 0
+    // background-color: $white
+
+.name
+    border-style: none none solid
+    border-width: 2px
+    border-color: none none $primary-color
 
 // Intro
 #intro-container
@@ -152,6 +177,15 @@ nav
 
 @media screen and (max-width: 476px)
     // Global
+    *
+        cursor: pointer
+    
+    #cursor
+        display: none !important
+    
+    .cursor-hover
+        display: none !important
+
     .hide
         display: none
     
