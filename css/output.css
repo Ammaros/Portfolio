@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
   color: #3c3b42;
   scroll-behavior: smooth;
-  cursor: none;
+  /* cursor: none; */
 }
 
 #cursor {
@@ -13,7 +13,7 @@
   box-sizing: border-box;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .cursor-hover {

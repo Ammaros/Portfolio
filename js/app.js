@@ -11,18 +11,18 @@
 // }
 
 // Cursor
-let cursor = document.getElementById("cursor");
-let primaryBtn = document.getElementsByClassName("btn-primary")[0];
+// let cursor = document.getElementById("cursor");
+// let primaryBtn = document.getElementsByClassName("btn-primary")[0];
 
-document.addEventListener("mousemove", (pos) => {
-    cursor.style.left = pos.clientX + "px"
-    cursor.style.top = (pos.clientY + scrollY) + "px"
-});
+// document.addEventListener("mousemove", (pos) => {
+//     cursor.style.left = pos.clientX + "px"
+//     cursor.style.top = (pos.clientY + scrollY) + "px"
+// });
 
-primaryBtn.addEventListener("mouseover", () => {
-    cursor.classList.add("cursor-hover");
-});
+// primaryBtn.addEventListener("mouseover", () => {
+//     cursor.classList.add("cursor-hover");
+// });
 
-primaryBtn.addEventListener("mouseleave", () => {
-    cursor.classList.remove("cursor-hover");
-});
+// primaryBtn.addEventListener("mouseleave", () => {
+//     cursor.classList.remove("cursor-hover");
+// });
